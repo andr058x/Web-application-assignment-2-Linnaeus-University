@@ -1,0 +1,15 @@
+{
+    "name": "socialauth/socialauth",
+    "description": "Social Auth authentication for registering users and add scope to it for assignment",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Andrea Mirenna",
+            "email": "andrea.mirenna@gmail.com"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.7",
+        "abraham/twitteroauth": "^1.2"
+    }
+}

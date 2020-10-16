@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #e9faff;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.card-warpper {
+    min-height: 100vh !important;
+    display: flex;
+    align-items: center;
+}
+
+.card{
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    border: none;
+    overflow: hidden;
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card .card-header,
+.card .card-footer{
+    background: #fff;
+}
+
+.btn-dark {
+    background: #000;
+    color: #fff;
+    border-radius: 0;
+}
+
+.btn-file{
+    background: #f0f0f0;
+    color: #000;
+}
+
+.btn-info{
+    background: #00acee;
+}
+
+.btn-light{
+    background: #dddddd;
+    color: #000;
+}
+
+.btn-gmail{ background: #D44638; color: #fff;}
+.btn-twitter{ background: #00acee; color: #fff;}
+.btn-github{ background: #211F1F; color: #fff;}
+.btn-gmail:hover{ color: #fff;}
+.btn-twitter:hover{ color: #fff;}
+.btn-github:hover{ color: #fff;}
+
+.btn-dark:hover{
+    color: #fff;
+}
+
+.btn-file:hover{
+    color: #000;
+}
+
+.btn-light:hover{
+    color: #000;
+}
+
+.btn-normal {
+    padding: 10px 20px;
+}

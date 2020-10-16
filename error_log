@@ -1,0 +1,52 @@
+[14-Oct-2020 16:30:00 UTC] PHP Warning:  require(/home/r1q31a0l21p2/public_html/vendor/composer/../ralouphie/getallheaders/src/getallheaders.php): failed to open stream: No such file or directory in /home/r1q31a0l21p2/public_html/vendor/composer/autoload_real.php on line 69
+[14-Oct-2020 16:30:00 UTC] PHP Fatal error:  require(): Failed opening required '/home/r1q31a0l21p2/public_html/vendor/composer/../ralouphie/getallheaders/src/getallheaders.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/r1q31a0l21p2/public_html/vendor/composer/autoload_real.php on line 69
+[14-Oct-2020 19:06:27 UTC] PHP Fatal error:  Uncaught Abraham\TwitterOAuth\TwitterOAuthException: This feature is temporarily unavailable in /home/r1q31a0l21p2/public_html/vendor/abraham/twitteroauth/src/TwitterOAuth.php:178
+Stack trace:
+#0 /home/r1q31a0l21p2/public_html/TwitterAuth.php(71): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 /home/r1q31a0l21p2/public_html/twitter.php(23): TwitterAuth->getPayload()
+#2 {main}
+  thrown in /home/r1q31a0l21p2/public_html/vendor/abraham/twitteroauth/src/TwitterOAuth.php on line 178
+[14-Oct-2020 19:14:02 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
+[14-Oct-2020 19:18:50 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
+[14-Oct-2020 19:21:17 UTC] PHP Notice:  Undefined index: login in /home/r1q31a0l21p2/public_html/process-signup.php on line 48
+[14-Oct-2020 19:21:17 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
+[14-Oct-2020 19:21:33 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
+[14-Oct-2020 19:22:17 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
+[14-Oct-2020 19:23:12 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
+[14-Oct-2020 19:23:55 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
+[14-Oct-2020 19:24:16 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
+[14-Oct-2020 19:27:06 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
+[14-Oct-2020 19:48:44 UTC] PHP Notice:  Undefined index: oauth_token in /home/r1q31a0l21p2/public_html/TwitterAuth.php on line 51
+[14-Oct-2020 19:48:44 UTC] PHP Notice:  Undefined index: oauth_token_secret in /home/r1q31a0l21p2/public_html/TwitterAuth.php on line 52
+[14-Oct-2020 19:57:26 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
+[14-Oct-2020 20:02:07 UTC] PHP Notice:  Undefined index: Role_IDrole in /home/r1q31a0l21p2/public_html/dashboard.php on line 37
+[14-Oct-2020 20:02:07 UTC] PHP Notice:  Undefined index: Organization in /home/r1q31a0l21p2/public_html/dashboard.php on line 38
+[14-Oct-2020 20:02:07 UTC] PHP Notice:  Undefined index: Role_IDrole in /home/r1q31a0l21p2/public_html/dashboard.php on line 51
+[14-Oct-2020 20:02:07 UTC] PHP Notice:  Undefined index: Role_IDrole in /home/r1q31a0l21p2/public_html/dashboard.php on line 82
+[14-Oct-2020 20:02:07 UTC] PHP Notice:  Undefined index: Role_IDrole in /home/r1q31a0l21p2/public_html/dashboard.php on line 82
+[14-Oct-2020 20:02:11 UTC] PHP Notice:  Undefined index: Role_IDrole in /home/r1q31a0l21p2/public_html/dashboard.php on line 37
+[14-Oct-2020 20:02:11 UTC] PHP Notice:  Undefined index: Organization in /home/r1q31a0l21p2/public_html/dashboard.php on line 38
+[14-Oct-2020 20:02:11 UTC] PHP Notice:  Undefined index: Role_IDrole in /home/r1q31a0l21p2/public_html/dashboard.php on line 51
+[14-Oct-2020 20:02:11 UTC] PHP Notice:  Undefined index: Role_IDrole in /home/r1q31a0l21p2/public_html/dashboard.php on line 82
+[14-Oct-2020 20:02:11 UTC] PHP Notice:  Undefined index: Role_IDrole in /home/r1q31a0l21p2/public_html/dashboard.php on line 82
+[14-Oct-2020 20:02:20 UTC] PHP Notice:  Undefined index: Role_IDrole in /home/r1q31a0l21p2/public_html/dashboard.php on line 37
+[14-Oct-2020 20:02:20 UTC] PHP Notice:  Undefined index: Organization in /home/r1q31a0l21p2/public_html/dashboard.php on line 38
+[14-Oct-2020 20:02:20 UTC] PHP Notice:  Undefined index: Role_IDrole in /home/r1q31a0l21p2/public_html/dashboard.php on line 51
+[14-Oct-2020 20:02:20 UTC] PHP Notice:  Undefined index: Role_IDrole in /home/r1q31a0l21p2/public_html/dashboard.php on line 82
+[14-Oct-2020 20:02:20 UTC] PHP Notice:  Undefined index: Role_IDrole in /home/r1q31a0l21p2/public_html/dashboard.php on line 82
+[14-Oct-2020 20:04:55 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
+[14-Oct-2020 20:05:11 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
+[14-Oct-2020 20:05:27 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
+[14-Oct-2020 20:06:40 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
+[14-Oct-2020 20:06:50 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
+[14-Oct-2020 20:10:14 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
+[14-Oct-2020 20:10:21 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
+[14-Oct-2020 20:11:29 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
+[14-Oct-2020 20:11:34 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
+[14-Oct-2020 20:13:03 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
+[14-Oct-2020 20:16:03 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
+[14-Oct-2020 20:16:07 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
+[14-Oct-2020 20:16:23 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
+[14-Oct-2020 20:16:56 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
+[14-Oct-2020 20:17:25 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
+[14-Oct-2020 20:17:39 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/r1q31a0l21p2/public_html/Database.php on line 36
